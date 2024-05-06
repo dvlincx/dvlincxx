@@ -1,0 +1,105 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{
+    background-image: url(https://cdn.pixabay.com/photo/2023/07/16/10/00/coffee-8130359_1280.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    min-height: 675px;
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 40px;
+    font-size: medium;
+}
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: peachpuff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: aliceblue;
+    color: antiquewhite;
+}
+
+ul li.active a {
+    background-color: aliceblue;
+    color: beige;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height:auto;
+
+}
+
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.title{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-65%, -50%);
+}
+
+.title h1{
+    color:Azure;
+    font-size: 0px;
+}
+
+
+}
+.sub-menu ul{
+    display:none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: #f5f5dc;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 1px;
+}
+
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0%;
+}
+
+
+
+
